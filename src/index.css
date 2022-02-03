@@ -165,7 +165,7 @@ h1{
   font-weight: 400;
   color: var(--Desaturated-blue);
 }
-.activity> #activity-hour{
+.activity> .activity-hour{
   font-size: 2rem;
   font-weight: 100;
 

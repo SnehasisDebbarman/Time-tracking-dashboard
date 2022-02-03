@@ -82,7 +82,7 @@ function App() {
                   <img src={elc} alt="" />
                 </p>
               </div>
-              <div id="activity-hour">
+              <div className="activity-hour">
                 {json[0].timeframes[TimeDur].current}hrs
               </div>
               <p>Last week -{json[0].timeframes[TimeDur].previous}hrs</p>
@@ -102,7 +102,7 @@ function App() {
                   <img src={elc} alt="" />
                 </p>
               </div>
-              <div id="activity-hour">
+              <div className="activity-hour">
                 {json[1].timeframes[TimeDur].current}hrs
               </div>
               <p>last week -{json[1].timeframes[TimeDur].previous}hrs</p>
@@ -122,7 +122,7 @@ function App() {
                   <img src={elc} alt="" />
                 </p>
               </div>
-              <div id="activity-hour">
+              <div className="activity-hour">
                 {json[2].timeframes[TimeDur].current}hrs
               </div>
               <p>last week -{json[2].timeframes[TimeDur].previous}hrs</p>
@@ -142,7 +142,7 @@ function App() {
                   <img src={elc} alt="" />
                 </p>
               </div>
-              <div id="activity-hour">
+              <div className="activity-hour">
                 {json[3].timeframes[TimeDur].current}hrs
               </div>
               <p>last week -{json[3].timeframes[TimeDur].previous}hrs</p>
@@ -162,7 +162,7 @@ function App() {
                   <img src={elc} alt="" />
                 </p>
               </div>
-              <div id="activity-hour">
+              <div className="activity-hour">
                 {json[4].timeframes[TimeDur].current}hrs
               </div>
               <p>last week -{json[4].timeframes[TimeDur].previous}hrs</p>
@@ -182,7 +182,7 @@ function App() {
                   <img src={elc} alt="" />
                 </p>
               </div>
-              <div id="activity-hour">
+              <div className="activity-hour">
                 {json[5].timeframes[TimeDur].current}hrs
               </div>
               <p>last week -{json[5].timeframes[TimeDur].previous}hrs</p>
