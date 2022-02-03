@@ -83,7 +83,9 @@ h1{
   font-weight: 400;
   font-size: 15px;
   gap: 20px;
- 
+}
+.time-container>div:hover{
+  color: white;
 }
 .card-item{
   overflow: hidden;
@@ -150,6 +152,9 @@ h1{
   margin-top: 50px;
   text-align: left;
   
+}
+.activity:hover{
+  background-color: hsl(234, 41%, 32%);
 }
 .activity>div{
   font-size: 15px;
